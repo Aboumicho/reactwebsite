@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default class Experiences extends React.Component{
     render(){
         return(
@@ -13,23 +14,21 @@ export default class Experiences extends React.Component{
                              <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
                             <div class="mh-education-deatils">
                                 <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                    <h4>Art & Multimedia From <a href="#">Oxford University</a></h4>
-                                    <div class="mh-eduyear">2005-2008</div>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a 
-                                    page when looking at its layout. The point of using  Lorem Ipsum </p>
+                                    <h4>Software Engineering <a href="https://www.concordia.ca/">Concordia University</a></h4>
+                                    <div class="mh-eduyear">2015-2019</div>
+                                    <p>Specializing in Web and Application development.</p>
                                 </div>                         
                                 <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                    <h4>Art & Multimedia From <a href="#">Oxford University</a></h4>
-                                    <div class="mh-eduyear">2005-2008</div>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a 
-                                    page when looking at its layout. The point of using  Lorem Ipsum </p>
+                                    <h4>Mechanical Engineering<a href="https://www.concordia.ca/">Concordia University</a></h4>
+                                    <div class="mh-eduyear">2013-2015</div>
+                                    <p>Mechanical drawings, many physic and math classes. </p>
                                 </div>                          
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                {/* <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                     <h4>Art & Multimedia From <a href="#">Oxford University</a></h4>
                                     <div class="mh-eduyear">2005-2008</div>
                                     <p>It is a long established fact that a reader will be distracted by the readable content of a 
                                     page when looking at its layout. The point of using L orem Ipsum </p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

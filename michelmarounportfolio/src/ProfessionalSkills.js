@@ -1,4 +1,5 @@
 import React from 'react'
+import { CircularProgressbar } from 'react-circular-progressbar';
 
 export default class ProfessionalSkills extends React.Component{
     render(){
@@ -8,19 +9,19 @@ export default class ProfessionalSkills extends React.Component{
                             <h3>Professional Skills</h3>
                             <ul class="mh-professional-progress" >
                                 <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="95"></div>
+                                    <div class="mh-progress mh-progress-circle" data-progress="95"><CircularProgressbar value={95} /></div>
                                     <div class="pr-skill-name">Communication</div>
                                 </li>
                                 <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="55"></div> 
+                                    <div class="mh-progress mh-progress-circle" data-progress="55"><CircularProgressbar value={80} /></div> 
                                     <div class="pr-skill-name">Team Work</div>
                                 </li>
                                 <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="86"></div>
+                                    <div class="mh-progress mh-progress-circle" data-progress="86"><CircularProgressbar value={86} /></div>
                                     <div class="pr-skill-name">Project Management</div>
                                 </li> 
                                 <li>
-                                    <div class="mh-progress mh-progress-circle" data-progress="60"></div>
+                                    <div class="mh-progress mh-progress-circle" data-progress="80"><CircularProgressbar value={80} /> </div>
                                     <div class="pr-skill-name">Creativity</div>
                                 </li>
                             </ul>

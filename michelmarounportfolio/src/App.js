@@ -20,7 +20,7 @@ function App() {
       <Service/>
       <Skills/>
       <Experiences/>
-      <Portfolio/>
+
     </div>
   );
 }
